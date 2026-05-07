@@ -45,7 +45,7 @@ export default function App() {
       <main className="app-main" id="app-main">
         <section className={`map-section${selectedCountry ? " shifted" : ""}`}>
           <p className="map-hint">
-            <span>Click</span> on any country to explore · Scroll to zoom · Drag to pan
+            <span>Click</span> countries to explore · Use zoom controls or scroll to zoom · Drag to pan
           </p>
 
           {allCountries.length > 0 && (
